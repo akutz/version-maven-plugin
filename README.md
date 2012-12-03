@@ -34,12 +34,16 @@ The default variable names are:
 	* For *1.1.0-SNAPSHOT* the value *1.1.0.0-SNAPSHOT* would be stored in the *version.string.raw.4* variable.
 * **version.major** The MAJOR component of a version. 
 	* For *1.1.0-SNAPSHOT* the value *1* would be stored in the *version.major* variable.
+	* It is possible to also set this property in the plug-in’s configuration section to hard-code the MAJOR component of a version or perhaps inject the MAJOR component with a generated value.
 * **version.minor** The MINOR component of a version. 
 	* For *1.1.0-SNAPSHOT* the value *1* would be stored in the *version.minor* variable.
+	* It is possible to also set this property in the plug-in’s configuration section to hard-code the MINOR component of a version or perhaps inject the MINOR component with a generated value.
 * **version.build** The BUILD component of a version. 
 	* For *1.1.0-SNAPSHOT* the value *0* would be stored in the *version.build* variable.
+	* It is possible to also set this property in the plug-in’s configuration section to hard-code the BUILD component of a version or perhaps inject the BUILD component with a generated value.
 * **version.revision** The REVISION component of a version. 
 	* For *1.1.0-SNAPSHOT*, since no REVISION component is specified in the version string, the value *0* would be stored in the *version.revision* variable. 
+	* It is possible to also set this property in the plug-in’s configuration section to hard-code the REVISION component of a version or perhaps inject the REVISION component with a generated value.
 
 Any of the above version variable names are configurable via the standard plug-in configuration section. Simply append *.varname* to the default variable name in the configuration section, or via the command line, and the variable name can be configured.
 
