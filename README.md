@@ -26,13 +26,20 @@ The plug-in executes a single goal, *version*, in the *initialize* phase. This m
 # Version Variables
 The default variable names are:
 
-* **version.string** The version sans prefix and/or suffix. For *1.1.0-SNAPSHOT* the value *1.1.0* would be stored in the *version.string* variable.
-* **version.string.4** The version sans prefix and/or suffix in a four-component version format. For *1.1.0-SNAPSHOT* the value *1.1.0.0* would be stored in the *version.string.4* variable.
-* **version.string.raw.4** The version in a four-component version format with the prefix and suffix. For *1.1.0-SNAPSHOT* the value *1.1.0.0-SNAPSHOT* would be stored in the *version.string.raw.4* variable.
-* **version.major** The MAJOR component of a version. For *1.1.0-SNAPSHOT* the value *1* would be stored in the *version.major* variable.
-* **version.minor** The MINOR component of a version. For *1.1.0-SNAPSHOT* the value *1* would be stored in the *version.minor* variable.
-* **version.build** The BUILD component of a version. For *1.1.0-SNAPSHOT* the value *0* would be stored in the *version.build* variable.
-* **version.revision** The REVISION component of a version. For *1.1.0-SNAPSHOT*, since no REVISION component is specified in the version string, the value *0* would be stored in the *version.revision* variable. 
+* **version.string** The version sans prefix and/or suffix. 
+	* For *1.1.0-SNAPSHOT* the value *1.1.0* would be stored in the *version.string* variable.
+* **version.string.4** The version sans prefix and/or suffix in a four-component version format. 
+	* For *1.1.0-SNAPSHOT* the value *1.1.0.0* would be stored in the *version.string.4* variable.
+* **version.string.raw.4** The version in a four-component version format with the prefix and suffix. 
+	* For *1.1.0-SNAPSHOT* the value *1.1.0.0-SNAPSHOT* would be stored in the *version.string.raw.4* variable.
+* **version.major** The MAJOR component of a version. 
+	* For *1.1.0-SNAPSHOT* the value *1* would be stored in the *version.major* variable.
+* **version.minor** The MINOR component of a version. 
+	* For *1.1.0-SNAPSHOT* the value *1* would be stored in the *version.minor* variable.
+* **version.build** The BUILD component of a version. 
+	* For *1.1.0-SNAPSHOT* the value *0* would be stored in the *version.build* variable.
+* **version.revision** The REVISION component of a version. 
+	* For *1.1.0-SNAPSHOT*, since no REVISION component is specified in the version string, the value *0* would be stored in the *version.revision* variable. 
 
 Any of the above version variable names are configurable via the standard plug-in configuration section. Simply append *.varname* to the default variable name in the configuration section, or via the command line, and the variable name can be configured.
 
