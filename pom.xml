@@ -4,9 +4,9 @@
     <groupId>com.lostcreations</groupId>
     <artifactId>version-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>version-maven-plugin Maven Mojo</name>
-    <url>http://maven.apache.org</url>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>Version Maven Plug-in</name>
+    <url>https://github.com/akutz/version-maven-plugin</url>
     <description>This Maven plug-in injects the parts of the standard project version into individual variables for easy re-use.</description>
     <inceptionYear>2012</inceptionYear>
     <developers>
