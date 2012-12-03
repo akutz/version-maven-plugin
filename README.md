@@ -1,7 +1,7 @@
 Version Maven Plug-in
 ====================
 
-This is **not** the [Codehaus Version***s*** plug-in](http://mojo.codehaus.org/versions-maven-plugin/). The two plug-ins serve entirely different purposes.
+This is **not** the [Codehaus Versions plug-in](http://mojo.codehaus.org/versions-maven-plugin/). The two plug-ins serve entirely different purposes.
 
 This Maven plug-in injects the parts of the standard project version into 
 individual variables for easy re-use.
